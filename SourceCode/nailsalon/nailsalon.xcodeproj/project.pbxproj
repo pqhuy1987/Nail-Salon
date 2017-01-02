@@ -3426,7 +3426,7 @@
 				PROVISIONING_PROFILE = "aa8c42a8-bb9a-41d3-ba5a-2a48fdf562bd";
 				PROVISIONING_PROFILE_SPECIFIER = Nail;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s armv64";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3462,7 +3462,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b2c5c2d9-1ba3-4783-9ae3-4f164cf4db72";
 				PROVISIONING_PROFILE_SPECIFIER = Nail;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s armv64";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
