@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122CC5A71E1A3F700020D60C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122CC5A61E1A3F700020D60C /* Images.xcassets */; };
 		28312AED1802E6C500FBE04A /* Privacy Policy.html in Resources */ = {isa = PBXBuildFile; fileRef = 28312AEA1802E6C500FBE04A /* Privacy Policy.html */; };
 		28312AEE1802E6C500FBE04A /* privacy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28312AEB1802E6C500FBE04A /* privacy.txt */; };
 		28312AEF1802E6C500FBE04A /* PrivacyPolicy.png in Resources */ = {isa = PBXBuildFile; fileRef = 28312AEC1802E6C500FBE04A /* PrivacyPolicy.png */; };
@@ -658,6 +659,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122CC5A61E1A3F700020D60C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28312AEA1802E6C500FBE04A /* Privacy Policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Privacy Policy.html"; sourceTree = "<group>"; };
 		28312AEB1802E6C500FBE04A /* privacy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privacy.txt; sourceTree = "<group>"; };
 		28312AEC1802E6C500FBE04A /* PrivacyPolicy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrivacyPolicy.png; sourceTree = "<group>"; };
@@ -1465,6 +1467,7 @@
 				65708B261739815D00F5F784 /* Supporting Files */,
 				65708B42173982BA00F5F784 /* Resources */,
 				65FEB8B3173BC79C0048E65D /* Sounds */,
+				122CC5A61E1A3F700020D60C /* Images.xcassets */,
 			);
 			path = NailSalon;
 			sourceTree = "<group>";
@@ -2617,12 +2620,12 @@
 		65708B141739815D00F5F784 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Newrosoft;
 				TargetAttributes = {
 					65708B1B1739815D00F5F784 = {
 						DevelopmentTeam = JQNK74493B;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -2789,6 +2792,7 @@
 				65708DDA173982E100F5F784 /* nailP4.png in Resources */,
 				65708DDB173982E100F5F784 /* nailP5.png in Resources */,
 				65708DDC173982E100F5F784 /* nailP6.png in Resources */,
+				122CC5A71E1A3F700020D60C /* Images.xcassets in Resources */,
 				65708DDD173982E100F5F784 /* nailP7.png in Resources */,
 				65708DDE173982E100F5F784 /* nailP8.png in Resources */,
 				65708DDF173982E100F5F784 /* nailP9.png in Resources */,
@@ -3313,28 +3317,38 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Andrei Gireada (UGF4W3B3J3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrei Gireada (UGF4W3B3J3)";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "7B966ED8-CCAD-44C4-A334-DEAADD8AEF4B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7B966ED8-CCAD-44C4-A334-DEAADD8AEF4B";
 				SDKROOT = iphoneos;
@@ -3349,20 +3363,29 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Free Maker Games LLC (YJZ4JE2ZW3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Free Maker Games LLC (YJZ4JE2ZW3)";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "C6CB7512-497A-4258-A271-539FAD87BC20";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C6CB7512-497A-4258-A271-539FAD87BC20";
@@ -3376,8 +3399,10 @@
 		65708B3A1739815D00F5F784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				ENABLE_BITCODE = NO;
@@ -3389,16 +3414,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NailSalon/NailSalon-Prefix.pch";
 				INFOPLIST_FILE = "NailSalon/NailSalon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nancy.nailsalon.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.nail.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "aa8c42a8-bb9a-41d3-ba5a-2a48fdf562bd";
+				PROVISIONING_PROFILE_SPECIFIER = Nail;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3407,8 +3434,10 @@
 		65708B3B1739815D00F5F784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				ENABLE_BITCODE = NO;
@@ -3420,17 +3449,19 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NailSalon/NailSalon-Prefix.pch";
 				INFOPLIST_FILE = "NailSalon/NailSalon-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nancy.nailsalon.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.nail.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "aa8c42a8-bb9a-41d3-ba5a-2a48fdf562bd";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b2c5c2d9-1ba3-4783-9ae3-4f164cf4db72";
+				PROVISIONING_PROFILE_SPECIFIER = Nail;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};

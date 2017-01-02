@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7A2CC4C7E5F91C83A43CE0B6547BE67D9141976",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A7A2CC4C7E5F91C83A43CE0B6547BE67D9141976" : 9223372036854775807,
+    "93E2DE70BF4D3A1827A2F50EA1E615DB77C7E152" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6999814E-6FF3-4EAC-B772-359A40145CD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A7A2CC4C7E5F91C83A43CE0B6547BE67D9141976" : "Nail_Salon\/",
+    "93E2DE70BF4D3A1827A2F50EA1E615DB77C7E152" : "NailSalon"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "nailsalon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SourceCode\/nailsalon\/nailsalon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hassan31\/NailSalon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93E2DE70BF4D3A1827A2F50EA1E615DB77C7E152"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pqhuy1987\/Nail-Salon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7A2CC4C7E5F91C83A43CE0B6547BE67D9141976"
+    }
+  ]
+}
